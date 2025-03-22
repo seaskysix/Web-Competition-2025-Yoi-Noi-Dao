@@ -1,0 +1,816 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.hero {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.banner nav ul {
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
+
+.banner nav ul li {
+    margin-left: 70px;
+}
+
+.banner nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.header-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #185CFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.header-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.header-button:hover {
+    background-color: #007bff;
+}
+
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-content {
+    width: 50%;
+    margin-top: 100px;
+}
+
+.text-content h1 {
+    font-size: 42px;
+}
+
+.text-content p {
+    font-size: 20px;
+}
+
+.image-content {
+    width: 845px;
+    height: 518px;
+    width: 45%;
+    margin: 70px;
+}
+
+.home-button1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #185CFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 25px;
+}
+
+.home-button1:hover {
+    background-color: #007bff;
+}
+
+.home-button2 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 8px;
+    color: black;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.home-button2 img {
+    color: black;
+    width: 20px;
+    height: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* ส่วนของหน้าการ์ด */
+section {
+    background-color: #F1F6FA;
+}
+
+.section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-content {
+    text-align: center;
+}
+
+.section-header h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    padding-top: 70px;
+}
+
+.section-description p {
+    font-size: 20px;
+    color: #9497A1;
+    margin: 30px;
+}
+
+.feature-card {
+    width: 350px;
+    height: 353px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+
+.feature-icon img {
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+
+.feature-card h3 {
+    font-size: 22px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 16px;
+    color: #9497A1;
+    line-height: 1.6;
+    margin-left: 12px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.text-content {
+    width: 45%;
+}
+
+.text-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.section-box {
+    max-width: 1200px;
+    margin: 100px auto;
+    background-color: white;
+}
+
+/* box 1 */
+.section-box-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.section-box-1:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.text-content-box-1 {
+    width: 45%;
+}
+
+.text-content-box-1 h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.text-content-box-1 p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.learn-more-box-1 {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.image-content-box-1 {
+    width: 50%;
+    position: relative;
+}
+
+.image-content-box-1 img {
+    width: 100%;
+    display: block;
+}
+
+
+/* box 2 */
+.section-box-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.image-content-box-2 {
+    width: 50%;
+    position: relative;
+}
+
+.image-content-box-2 img {
+    width: 100%;
+    display: block;
+}
+
+.image-size {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.text-content {
+    width: 45%;
+}
+
+.text-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.learn-more {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+/* ส่วนของความสำเร็จ */
+
+.help {
+    background-color: #F1F6FA;
+}
+
+.help-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.help-content {
+    text-align: center;
+}
+
+.help-header h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    padding-top: 70px;
+}
+
+.help-description p {
+    font-size: 20px;
+    color: #9497A1;
+}
+
+.help-card {
+    width: 350px;
+    height: 331px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin: 15px;
+}
+
+.help-card p {
+    font-size: 16px;
+    color: #9497A1;
+    line-height: 1.6;
+    margin-left: 11px;
+}
+
+.help-card h3 {
+    font-size: 22px;
+    margin-top: 9px;
+    margin-left: 11px;
+    margin-bottom: 10px;
+}
+
+.help-card p {
+    font-size: 16px;
+    color: #9497A1;
+    line-height: 1.6;
+    margin-top: 9px;
+    margin-left: 11px;
+}
+
+.help-text {
+    display: flex;
+}
+
+.help-text button {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #F1F6FA;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 0 10px;
+    font-size: 14px;
+    color: #185CFF;
+    margin-top: 10px;
+}
+
+/* button ด้านล่าง */
+.help-buttom {
+    display: flex;
+    align-items: center;
+    background-color: #185CFF;
+    color: white;
+    border: none;
+    padding: 13px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.help-buttom:hover {
+    background-color: #007bff;
+}
+
+
+
+/* the best */
+.the-best {
+    background-color: white;
+}
+
+.the-best-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.the-best-top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.the-best-top-section h2 {
+    font-size: 2.5em;
+}
+
+.the-best-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.the-best-nav-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    /* margin-left: 10px; */
+    cursor: pointer;
+}
+
+.the-best-testimonial-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.the-best-card {
+    display: flex;
+    margin-top: 10px;
+}
+
+.the-best-testimonial-card {
+    width: 540px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+
+.the-best-testimonial-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.the-best-testimonial-card p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.the-best-testimonial-card h4 {
+    margin-bottom: 5px;
+}
+
+.the-best-company {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.the-best-stats-section {
+    background-color: #185CFF;
+    color: white;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.the-best-stat-card {
+    width: 20%;
+}
+
+.the-best-stat-number {
+    font-size: 3em;
+    margin: 0;
+}
+
+.the-best-stat-label {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+
+/* contact */
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #F1F6FA;
+}
+
+.contact-left {
+    width: 55%;
+}
+
+.contact-left h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.contact-left p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.contact-email {
+    margin-top: 100px;
+}
+
+.contact-right {
+    width: 450px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-right h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.contact-right label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+
+.contact-right input,
+.contact-right textarea {
+    width: 80%;
+    padding: 5px 0;
+    /* ปรับ padding */
+    border: none;
+    /* ลบเส้นขอบ */
+    border-bottom: 1px solid #ccc;
+    /* เพิ่มเส้นขีดด้านล่าง */
+    background: transparent;
+    /* ทำให้พื้นหลังโปร่งใส */
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+.contact-right textarea {
+    height: 150px;
+}
+
+.contact-right button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-left: 80%;
+}
+
+.contact-right button:hover {
+    background-color: #0056b3;
+}
+
+
+/* footer */
+.newsletter-section {
+    background-color: #185CFF;
+    /* สีพื้นหลัง */
+    padding-top: 40px;
+    padding-bottom: 0;
+    /* เพิ่ม padding บนและล่าง */
+}
+
+.newsletter-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.newsletter-content h2 {
+    font-size: 2.5em;
+    /* เพิ่มขนาดฟอนต์ */
+    margin-bottom: 20px;
+    color: white;
+    /* เปลี่ยนสีตัวอักษร */
+}
+
+.newsletter-content p {
+    font-size: 1.1em;
+    color: white;
+    margin-bottom: 30px;
+    line-height: 10px;
+    /* เพิ่มระยะห่างบรรทัด */
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    /* เพิ่มระยะห่างด้านบน */
+    margin-bottom: 50px;
+}
+
+.newsletter-form input {
+    width: 300px;
+    padding: 12px 15px;
+    /* เพิ่ม padding */
+    border: 1px solid #ddd;
+    /* เปลี่ยนสีเส้นขอบ */
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+.newsletter-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #0056b3;
+}
+
+.footer-content {
+    background-color: white;
+    padding: 80px 0;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    width: 20%;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 160px;
+    /* เพิ่มขนาดโลโก้ */
+    margin-left: 80%;
+    vertical-align: middle;
+    /* จัดให้โลโก้อยู่กึ่งกลางแนวตั้ง */
+}
+
+.footer-logo span {
+    font-size: 1.5em;
+    /* เพิ่มขนาดฟอนต์ */
+    font-weight: bold;
+    vertical-align: middle;
+    color: #333;
+    /* เปลี่ยนสีตัวอักษร */
+}
+
+.footer-links {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    margin-left: 50%;
+}
+
+.footer-links-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.footer-links-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links-column li {
+    margin-bottom: 8px;
+}
+
+.footer-links-column a {
+    text-decoration: none;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.footer-links-column a:hover {
+    color: #007bff;
+}
+
+.footer-contacts-box {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+
+    .footer-social {
+        margin-left: 653px;
+    }
+
+}
+
+.footer-social .social-icons img {
+    width: 35px;
+    /* เพิ่มขนาดไอคอน */
+    margin-right: 8px;
+    transition: opacity 0.3s ease;
+    /* เพิ่ม transition */
+}
+
+.footer-social .social-icons img:hover {
+    opacity: 0.7;
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #888;
+}
